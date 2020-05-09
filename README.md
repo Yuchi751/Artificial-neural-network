@@ -1,1 +1,1 @@
-# Artificial-neural-network
+# Artificial-neural-network XOR

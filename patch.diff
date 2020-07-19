@@ -1,0 +1,11 @@
+diff --git a/XOR.py b/XOR.py
+index cab7a8d..c53d137 100644
+--- a/XOR.py
++++ b/XOR.py
+@@ -49,4 +49,4 @@ plt.xticks(np.linspace(0, 1000, 11))
+ plt.xlabel('Epochs')
+ plt.ylabel('Loss')
+ plt.show()
+-sess.close()
++sess.close()
+\ No newline at end of file

@@ -10,10 +10,10 @@
 
 ### 方法 
 
-AND、OR使用單層的感知器去做運算
+AND、OR使用單層的感知器去做運算(如下附圖)
 ![單層感知器](https://github.com/Yuchi751/Artificial-neural-network/blob/master/images/%E5%96%AE%E5%B1%A4%E6%84%9F%E7%9F%A5%E5%99%A8.png?raw=true "單層感知器")
 
-XOR使用多層的感知器去做的
+XOR使用多層的感知器去做的(如下附圖)
 ![多層感知器](https://github.com/Yuchi751/Artificial-neural-network/blob/master/images/%E5%A4%9A%E5%B1%A4%E6%84%9F%E7%9F%A5%E5%99%A8.png?raw=true "多層感知器")
 
 ### AND、OR程式想法
@@ -26,6 +26,7 @@ XOR使用多層的感知器去做的
 
 透過輸入值去和設定的權重去相乘，而該變量是這兩個得連接，每個輸入值都會搭配不同的權重，然後會得出期望值去減掉實際輸出，透過100次的迭代去收斂出最接近0的。
 使用C#去寫，最後匯出文字檔，再到excel畫圖呈現。
+
 **程式碼可看form1.cs**
 
 ### XOR程式想法
